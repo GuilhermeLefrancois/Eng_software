@@ -22,5 +22,10 @@ namespace Eng_software
             Form1 x = new Form1();
             x.ShowDialog();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
