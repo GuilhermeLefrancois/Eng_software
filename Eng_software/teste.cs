@@ -21,5 +21,10 @@ namespace Eng_software
             this.email = email;
             this.sexo = sexo;
         }
+
+        public static DateTime data()
+        {
+            return DateTime.Today;
+        }
     }
 }
