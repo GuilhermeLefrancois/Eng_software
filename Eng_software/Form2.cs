@@ -27,5 +27,10 @@ namespace Eng_software
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(teste.hora_atual().ToString());
+        }
     }
 }

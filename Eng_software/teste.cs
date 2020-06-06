@@ -13,6 +13,7 @@ namespace Eng_software
         private float salario;
         private char sexo;
         private string email;
+        
         public teste(string nome, int idade, float salario, string email, char sexo)
         {
             this.nome = nome;
@@ -21,5 +22,11 @@ namespace Eng_software
             this.email = email;
             this.sexo = sexo;
         }
+
+        public static DateTime hora_atual()
+        {
+            return DateTime.Now;
+        }
+
     }
 }
