@@ -11,13 +11,14 @@ namespace Eng_software
         private string nome;
         private int idade;
         private float salario;
+        private char sexo;
 
-        public teste(string nome, float salario)
-        public teste(string nome, int idade)
+        public teste(string nome, int idade, float salario, char sexo)
         {
             this.nome = nome;
             this.idade = idade;
             this.salario = salario;
+            this.sexo = sexo;
         }
     }
 }
