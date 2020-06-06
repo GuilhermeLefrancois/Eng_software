@@ -16,5 +16,11 @@ namespace Eng_software
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Form1 x = new Form1();
+            x.ShowDialog();
+        }
     }
 }
