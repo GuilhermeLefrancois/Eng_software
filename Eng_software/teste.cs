@@ -9,10 +9,12 @@ namespace Eng_software
     public class teste
     {
         private string nome;
+        private float salario;
 
-        public teste(string nome)
+        public teste(string nome, float salario)
         {
             this.nome = nome;
+            this.salario = salario;
         }
     }
 }
