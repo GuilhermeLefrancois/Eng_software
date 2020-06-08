@@ -27,5 +27,14 @@ namespace Eng_software
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (button1.Text == "Clique aqui")
+                button1.Text = "Clique novamente";
+            else
+                button1.Text = "Calheiros da o bumbum";
+
+        }
     }
 }
