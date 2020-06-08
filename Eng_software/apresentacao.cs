@@ -16,5 +16,10 @@ namespace Eng_software
             this.nome = nome;
             this.idade = idade;
         }
+
+        public DateTime pegarHora()
+        {
+            return DateTime.Today;
+        }
     }
 }
