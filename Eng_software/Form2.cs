@@ -33,7 +33,7 @@ namespace Eng_software
             if (button1.Text == "Clique aqui")
                 button1.Text = "Clique novamente";
             else
-                button1.Text = "Calheiros da o bumbum";
+                button1.Text = "Você clicou";
 
         }
     }
