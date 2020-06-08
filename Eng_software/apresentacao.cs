@@ -10,6 +10,7 @@ namespace Eng_software
     {
         private string nome;
         private int idade;
+        private double pi;
 
         public apresentacao(string nome, int idade)
         {
